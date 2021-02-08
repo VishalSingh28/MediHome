@@ -42,7 +42,7 @@ export class MedihomeComponent implements OnInit
       },
       (error)=>
       {
-        this.msg = "Something wrong";
+        this.msg = "Something wrong"; //errormsg
       }
     );
   }
